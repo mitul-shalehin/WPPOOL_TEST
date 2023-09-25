@@ -158,7 +158,7 @@ class TestTestWordPress():
     # 41 | click | css=.moon-light | 
     self.driver.find_element(By.CSS_SELECTOR, ".moon-light").click()
  
-# Your test functions and setup code here
+# test functions for PlugIn WordPress
 
 if __name__ == "__main__":
     pytest.main()
